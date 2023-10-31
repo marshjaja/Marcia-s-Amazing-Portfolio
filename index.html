@@ -4,38 +4,141 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Marcia Mijnhijmer</title>
-		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Marcia's Mijnhijmer // Porfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 
 	<body>
 		<!-- main logo / nav -->
-		<header>
-			<h1>Marcia Mijnhijmer</h1>
-			<nav></nav>
+		<header class="header">
+			<h1 class="logo">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marcia
+				<span>M</span>ijnhijmer&nbsp;&nbsp;
+			</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="#about">About Me</a>
+					</li>
+					<li>
+						<a href="#work">Work</a>
+					</li>
+					<li>
+						<a href="#contact">Contact Me</a>
+					</li>
+					<li>
+						<a
+							href="https://drive.google.com/file/d/1HJxDPEBIZnM4kDd5gfbHEM5YCyfHx-lx/view"
+							>Resume</a
+						>
+					</li>
+				</ul>
+			</nav>
 		</header>
 
 		<!-- hero banner -->
-		<section class="hero-banner">
+
+		<section class="hero-banner" id="hero">
 			<div>
-				<h2>Fronted Developer</h2>
+				<h2>Frontend Developer</h2>
+				<img src="./images/02-hero-bg.jpg" alt="" />
 			</div>
 		</section>
 
 		<main class="page-wrapper">
 			<!-- about me -->
 			<section class="page-section" id="about">
-				<h2>About Me</h2>
+				<h2 class="section-titles">About Me</h2>
+				<div class="right-container">
+					<div class="about-me-content">
+						<img id="profileimg" src="images/LinkedIn-color-no-bg.png" alt="" />
+						<p class="right-container">
+							An independent, resourceful, and self-motivated individual with a
+							passion for learning and creating something from nothing.
+							Fast-learner with basic knowledge of Python, JavaScript, HTML,
+							CSS, SQL, React, Django. Recently completed the Full Stack
+							Developer Pathway with Code First Girls(Spring23 CoHort) and
+							+Master Mobile App Development.
+							<br />
+							<br />
+
+							As a Pastry Chef and Head Pastry Chef for various high-end
+							companies, I honed my ability to manage complex projects and lead
+							teams to deliver high-quality results for events of all sizes. I
+							developed new recipes, created menus, trained staff, and
+							maintained attention to detail in the execution of all aspects of
+							pastry production. These skills translate well into any industry,
+							where attention to detail and the ability to manage multiple
+							projects are crucial. I am excited to bring my skills to a new
+							industry and continue to learn and grow.
+						</p>
+					</div>
+				</div>
 			</section>
 
 			<!-- portfolio container -->
+			<!-- HTML -->
 			<section class="page-section" id="work">
-				<h2>Work</h2>
+				<h2 class="section-titles">Work</h2>
+				<div class="right-container work-image-grid" id="one">
+					<a class="grid-item grid-item1" href="https://kraken.tech/press">
+						<div class="grid-text color1">Kraken Tech Press</div>
+					</a>
+
+					<a
+						class="grid-item grid-item2"
+						href="https://main--gleeful-custard-711273.netlify.app/"
+					>
+						<div class="grid-text color2">BloodHub</div>
+					</a>
+					<a
+						class="grid-item grid-item3"
+						href="https://github.com/marshjaja/CFG-Mobile-Dev-Master-Final-Project"
+					>
+						<div class="grid-text color3">Code for Girls</div>
+					</a>
+					<a
+						class="grid-item grid-item4"
+						href="https://www.loom.com/share/d92b21768b4a4e78a47c32e49f021e8f"
+					>
+						<div class="grid-text color4">Jumpy Jump</div>
+					</a>
+					<a
+						class="grid-item grid-item5"
+						href="https://www.loom.com/share/0348cf8362c244e4acb0320c0cfbb7cc"
+					>
+						<div class="grid-text color5">Space Shooter</div>
+					</a>
+				</div>
 			</section>
 
 			<!-- contact -->
 			<section class="page-section contact" id="contact">
-				<h2>Contact Me</h2>
+				<h2 class="section-titles">Contact Me</h2>
+				<div class="right-container">
+					<div class="right-container" id="contact-section">
+						<a href="tel:+447553958577"><i class="bi bi-telephone"></i></a>
+						<a href="mailto:msgmijnhijmer87@hotmail.com"
+							><i class="bi bi-envelope-paper-heart"></i
+						></a>
+						<a href="https://github.com/marshjaja"
+							><i class="bi bi-github"></i
+						></a>
+						<a href="https://www.linkedin.com/in/marcia-mijnhijmer-9a562610a/"
+							><i class="bi bi-linkedin"></i
+						></a>
+						<a href="https://www.instagram.com/marshjaja/"
+							><i class="bi bi-instagram"></i
+						></a>
+					</div>
+					<p class="footer">
+						&copy; 2023 Marcia Mijnhijmer, All rights reserved. <sup>TM</sup>
+					</p>
+				</div>
 			</section>
 		</main>
 	</body>
