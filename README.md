@@ -1,4 +1,4 @@
-
+## Unfortunatly had to last minute re-make my repository😤😭, it doesnt display the grid images on the deployment link now😤😭 but it worked previously as can be see from the images and footage. I will fix this later
 
  
  # 👩🏾‍💻🏳️‍🌈Marcia Mijnhijmer🏳️‍🌈👩🏾‍💻
