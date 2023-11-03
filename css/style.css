@@ -184,19 +184,19 @@ img {
 }
 
 .grid-item2 {
-	background-image: url("/images/bloodhub1.png");
+	background-image: url("../images/bloodhub1.png");
 }
 
 .grid-item3 {
-	background-image: url("/images/code-first-girls1.png");
+	background-image: url("../images/code-first-girls1.png");
 }
 
 .grid-item4 {
-	background-image: url("/images/jumpy-jump1.png");
+	background-image: url("../images/jumpy-jump1.png");
 }
 
 .grid-item5 {
-	background-image: url("/images/space-shooter1.png");
+	background-image: url("../images/space-shooter1.png");
 }
 
 .grid-item1 .grid-text {
